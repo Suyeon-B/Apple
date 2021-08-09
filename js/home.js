@@ -1,15 +1,12 @@
-/**
- * 
- */
 $('.iPhone12_link').click(function() {
-	location.href = 'iPhone.jsp';
+	location.href = 'iPhone.html';
 });
 $('.iPadPro_link').click(function(){
-	location.href = 'iPadPro.jsp';
+	location.href = 'iPadPro.html';
 })
 $('.iMac_link').click(function(){
-	location.href = 'mac.jsp';
+	location.href = 'mac.html';
 })
 $('.iPadPro_link').click(function(){
-	location.href = 'iPadPro.jsp';
+	location.href = 'iPadPro.html';
 })

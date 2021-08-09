@@ -1,6 +1,3 @@
-/**
- * 
- */
 function setup() {
   var e = document.getElementById("watchme");
   e.addEventListener("animationstart", listener, false);
