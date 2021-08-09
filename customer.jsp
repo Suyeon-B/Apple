@@ -5,12 +5,26 @@
 <head>
 <link rel="stylesheet" type="text/css" href="/css/customer.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <meta charset="UTF-8">
 <title>비공식 Apple 지원</title>
 </head>
 <body>
 <!--  상단 메뉴바 -->
-<%@ include file="top.jsp" %>
+<!-- include file="top.jsp -->
+	<div class = "topContainer_wrapper">
+		<div class = "topContainer">
+			<div class = "page appoleLogo"></div>
+			<div class = "page Mac"></div>
+			<div class = "page iPad"></div>
+			<div class = "page iPhone"></div>
+			<div class = "page Watch"></div>
+			<div class = "page Music"></div>
+			<div class = "page customer"></div>
+			<div class = "page Search"></div>
+			<div class = "page cart"></div>
+		</div>
+	</div>
 <div class = "title">
 	<div class = "titleBanner">
 		<div class = "titleBanner_image" data-aos="zoom-out" data-aos-offset="0" data-aos-duration="2000">
@@ -233,6 +247,7 @@
 
 
 <script src="/js/customer.js"></script>
+<script src="/js/top.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript">
 	AOS.init();

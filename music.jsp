@@ -11,10 +11,24 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body> 
 	<!-- top -->
-	<%@ include file="top.jsp" %>
+	<%-- <%@ include file="top.jsp" %> --%>
+	<div class = "topContainer_wrapper">
+		<div class = "topContainer">
+			<div class = "page appoleLogo"></div>
+			<div class = "page Mac"></div>
+			<div class = "page iPad"></div>
+			<div class = "page iPhone"></div>
+			<div class = "page Watch"></div>
+			<div class = "page Music"></div>
+			<div class = "page customer"></div>
+			<div class = "page Search"></div>
+			<div class = "page cart"></div>
+		</div>
+	</div>
 	<!-- 상단 메뉴바 -->
 	<div class = "chapter_container" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
 		<div class = "chapter_box">
@@ -274,6 +288,7 @@
 	
 	<!-- script -->
 	<script src="/js/music.js"></script>
+	<script src="/js/top.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script type="text/javascript">
 		AOS.init();

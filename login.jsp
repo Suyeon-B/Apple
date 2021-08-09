@@ -4,12 +4,26 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/css/login.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <meta charset="UTF-8">
 <title>로그인</title>
 </head>
 <body>
 <!--  상단 메뉴바 -->
-<%@ include file="top.jsp" %>
+<%-- <%@ include file="top.jsp" %> --%>
+	<div class = "topContainer_wrapper">
+		<div class = "topContainer">
+			<div class = "page appoleLogo"></div>
+			<div class = "page Mac"></div>
+			<div class = "page iPad"></div>
+			<div class = "page iPhone"></div>
+			<div class = "page Watch"></div>
+			<div class = "page Music"></div>
+			<div class = "page customer"></div>
+			<div class = "page Search"></div>
+			<div class = "page cart"></div>
+		</div>
+	</div>
 <div class = "main">
 	<div class = "title_container">
 		<div class = "title">로그인.</div>
@@ -57,5 +71,6 @@
 
 
 <script src="/js/login.js"></script>
+<script src="/js/top.js"></script>
 </body>
 </html>
