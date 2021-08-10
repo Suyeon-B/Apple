@@ -3,6 +3,8 @@
 .bottom{
 	background: #f5f5f7;
 	text-align: initial;
+	z-index: 10;
+    position: relative;
 }
 .bottom_container{
 	display: flex;
