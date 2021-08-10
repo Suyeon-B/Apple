@@ -138,6 +138,10 @@ body{
 	margin-top: 12px;
     margin-bottom: 12px;
 }
+.iPhone_12_Pro.big.price.wrapper, .iPhone_12_Pro.big.button.more_info_wrapper {
+    position: relative;
+    z-index: 10;
+}
 .iPhone_12_Pro.image {
     height: 342px;
     background-size: 3010px 624px;
@@ -173,8 +177,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 12px;
-	position: relative;
-    z-index: 5;
 }
 .home.ETC.MacBookAir_Arcade {
     display: flex;
